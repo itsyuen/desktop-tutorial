@@ -7,3 +7,6 @@ Peter Chang
 This is my first GitHub desk top tutorial version control practice.
 
 I am now using VS code on windows 11, located on my Dell Pro laptop to start my git/github c/c++ coding experience!!!
+
+
+test for change using a commit editor inside vs code.
