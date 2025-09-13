@@ -2,6 +2,8 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/YTA1QD7HT3agcgWDzs6RMw/badge)](https://hackmd.io/YTA1QD7HT3agcgWDzs6RMw)
 
+(this badge will show normally on hackmd.io)
+
 This is your README. READMEs are where you can communicate what your project is and how to use it.
 
 Write your name on line 6, save it, and then head back to GitHub repo.
@@ -23,5 +25,9 @@ press here to find the current NAS structure of volume1 on my personal database,
 [September 2025 NAS structure under organization....](nas-volume1-tree_2025-09-12.md)
 
 this tree will updated soon!!!!
+
+test on how figure appear here on local GitHub cloned direcotry on c:\Users\itsyu\GitHub\deaktop-tutorail
+
+![diagram](fig/Screenshot01_2025_09_14.png)
 
 **Peter**
