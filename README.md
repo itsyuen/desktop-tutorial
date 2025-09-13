@@ -1,5 +1,7 @@
 # Welcome to GitHub Desktop!
 
+[![hackmd-github-sync-badge](https://hackmd.io/TlpUVPNyRrKUY5LOcNEJ0Q/badge)](https://hackmd.io/TlpUVPNyRrKUY5LOcNEJ0Q)
+
 This is your README. READMEs are where you can communicate what your project is and how to use it.
 
 Write your name on line 6, save it, and then head back to GitHub Desktop.
