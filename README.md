@@ -28,6 +28,7 @@ this tree will updated soon!!!!
 
 test on how figure appear here on local GitHub cloned direcotry on c:\Users\itsyu\GitHub\deaktop-tutorail
 
-![diagram](fig/Screenshot01_2025_09_14.png)
+![diagram](https://github.com/itsyuen/desktop-tutorial/blob/main/fig/Screenshot01_2025_09_14.png?raw=true)
 
+test
 **Peter**
