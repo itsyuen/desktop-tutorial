@@ -13,5 +13,5 @@ if [ -f "${WS_DIR}/install/setup.bash" ]; then
 fi
 
 # Environment check
-source ~/bin/check_dev_env.sh
+~/bin/check_dev_env.sh
 
