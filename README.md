@@ -33,4 +33,5 @@ test on how figure appear here on local GitHub cloned direcotry on c:\Users\itsy
 ![diagram](https://github.com/itsyuen/desktop-tutorial/blob/main/fig/Screenshot_2026_01_05.png?raw=true)
 
 test
+
 **Peter**
