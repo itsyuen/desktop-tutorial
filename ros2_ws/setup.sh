@@ -15,3 +15,8 @@ fi
 # Environment check
 ~/bin/check_dev_env.sh
 
+# ros domain id assignment
+if [ -z "ROS_DOMAIN_ID" ]; then
+  export ROS_DOMAIN_ID=10
+fi
+
