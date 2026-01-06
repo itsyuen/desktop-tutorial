@@ -9,3 +9,6 @@ if [ -z "$ROS_DOMAIN_ID" ]; then
 fi
 
 echo -e "\e[32mROS DOMAIN ID is:\e[0m$ROS_DOMAIN_ID"
+
+export PATH="~/GitHub/desktop-tutorial/:$PATH"
+echo $PATH
