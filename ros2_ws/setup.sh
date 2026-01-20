@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ROS 2 workspace setup script (safe to source multiple times)
 
-set -e
+# set -e
 
 # Get directory of this script (ros2_ws root)
 WS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -16,7 +16,8 @@ if [ -f /opt/ros/jazzy/setup.bash ]; then
   source /opt/ros/jazzy/setup.bash
 else
   echo "[ERROR] ROS 2 Jazzy not found at /opt/ros/jazzy. Install ROS 2 first."
-  return 1 2>/dev/null || exit 1
+  echo "        Did you forget to install or source ROS 2?"
+  return 0
 fi
 
 # Run environment check (if present)
