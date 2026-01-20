@@ -3,6 +3,14 @@
 
 # set -e
 
+# If someone runs it (executes) instead of sourcing it, print guidance and stop.
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+  echo "[INFO] Please source this script (do not run it):"
+  echo "       source setup.sh"
+  echo "       . setup.sh"
+  return 0 2>/dev/null || exit 0
+fi
+
 # Get directory of this script (ros2_ws root)
 WS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
