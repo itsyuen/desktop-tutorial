@@ -26,4 +26,10 @@ namespace demo {
         if (a.getWeight() > b.getWeight()) return 1;
         return 0;
     }
+
+    int mixFruitByColor(const Fruit& a, const Fruit& b) {
+        std::cout << "first fruit is: " << std::endl;
+        std::cout << a.getColor() << std::endl;
+        return 0;
+    }
 }

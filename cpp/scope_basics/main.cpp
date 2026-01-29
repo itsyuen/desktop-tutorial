@@ -20,6 +20,10 @@ int main(){
 
     r = demo::compareFruitByWeight(banana, orange);
     std::cout << r << std::endl;
+    std::cout << r << std::endl;
+    std::cout << r << std::endl;
+    std::cout << r << std::endl;
 
+    
     return 0;
 }
