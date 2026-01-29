@@ -22,5 +22,6 @@ namespace demo {
 
     // free functions (outside of class)
     int compareFruitByWeight(const Fruit& a, const Fruit& b);
+    int mixFruitByColor(const Fruit& a, const Fruit& b);
 
 }   // namespace demo
