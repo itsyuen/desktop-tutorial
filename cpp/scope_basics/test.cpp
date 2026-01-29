@@ -1,39 +1,29 @@
 // my restart cpp program
 
-#include <iostream>
-using namespace std;
+#include "test.h" 
+
+//using namespace std; this is used in .h headers?
 
 namespace demo {
 
-    // make a fruit class and some array structures
-    // use std::library of array kind to make sure
-    // use pointers to practice using a full object to compare apples and oranges.
+// make a fruit class and some array structures
+// use std::library of array kind to make sure
+// use pointers to practice using a full object to compare apples and oranges.
 
-    class Fruit {
-        public:
-        // constructor
-            Fruit(double w, std::string c) : weight(w), color(c) {}
-        // member functions
-            double getWeight(){ return weight;}
-            std::string getColor(){ return color;}
+    Fruit::Fruit(double w, std::string c)
+        : weight(w), color(std::move(c)) {}
 
-            void setWeight(double a){ weight = a; }
-            void setColor(std::string c){ color = c; }
-        private:
-            double weight;
-            std::string color;
+    double Fruit::getWeight() const {return weight;}
+
+    const std::string& Fruit::getColor() const {return color;}
+
+    void Fruit::setWeight(double a) { weight = a; }
+
+    void Fruit::setColor(std::string c) { color = std::move(c); }
+
+    int compareFruitByWeight(const Fruit& a, const Fruit& b) {
+        if (a.getWeight() < b.getWeight()) return -1;
+        if (a.getWeight() > b.getWeight()) return 1;
+        return 0;
     }
-
-    void Fruit::setWeight(double a){
-        weight = a;
-    }
-
-int main ()
-{
-    cout << "Fruit calss test!!" << endl;
-
-    //std::cout << demo::add(2, 3) << std::endl;
-
-    return 0;
 }
-
