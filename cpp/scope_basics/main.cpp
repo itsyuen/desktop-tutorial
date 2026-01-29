@@ -16,5 +16,10 @@ int main(){
     else if (r > 0) std::cout << "orange\n";
     else std::cout << "same\n";
 
+    demo::Fruit banana(0.125, "yellow");
+
+    r = demo::compareFruitByWeight(banana, orange);
+    std::cout << r << std::endl;
+
     return 0;
 }
