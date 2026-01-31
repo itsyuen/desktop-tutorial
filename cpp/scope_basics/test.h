@@ -4,6 +4,16 @@
 
 namespace demo {
 
+    struct ColorCode{
+        u_int8_t r;
+        u_int8_t g;
+        u_int8_t b;
+
+        std::string c;
+        
+
+    }
+
     class Fruit {
     public:
         Fruit(double w, std::string c);
