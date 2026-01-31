@@ -1,13 +1,14 @@
 #pragma once
 
 #include <string>
+#include <cstdint>
 
 namespace demo {
 
     struct ColorCode{
-        u_int8_t r;
-        u_int8_t g;
-        u_int8_t b;
+        uint8_t r;
+        uint8_t g;
+        uint8_t b;
 
         std::string c;
         
@@ -24,11 +25,12 @@ namespace demo {
 
             void setWeight(double a);
         void setColor(std::string c);
+        std::string FruitName;
 
     private:
         double weight;
         std::string color;
-
+    
     };
 
     // free functions (outside of class)

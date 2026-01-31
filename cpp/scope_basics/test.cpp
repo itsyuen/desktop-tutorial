@@ -1,11 +1,16 @@
 // my restart cpp program
 
+#include <iostream>
 #include "test.h" 
 
 //using namespace std; this is used in .h headers?
 
 namespace demo {
 // made a sturct (public class for data strorage)
+    int ColorCode::mixColor(const std::string& a, const std::string& b){
+        return 0;
+    };
+
     ColorCode appleColor{255, 0, 0, "red"};
 // make a fruit class and some array structures
 // use std::library of array kind to make sure
@@ -23,6 +28,7 @@ namespace demo {
     void Fruit::setColor(std::string c) { color = std::move(c); }
 
     int compareFruitByWeight(const Fruit& a, const Fruit& b) {
+        std::cout << "comparing " << a.FruitName  << " vs " << b.FruitName << std::endl;
         if (a.getWeight() < b.getWeight()) return -1;
         if (a.getWeight() > b.getWeight()) return 1;
         return 0;
@@ -31,6 +37,8 @@ namespace demo {
     int mixFruitByColor(const Fruit& a, const Fruit& b) {
         std::cout << "first fruit is: " << std::endl;
         std::cout << a.getColor() << std::endl;
+        std::cout << "second fruit is: " << std::endl;
+        std::cout << b.getColor() << std::endl;
         return 0;
     }
 }
