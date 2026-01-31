@@ -5,7 +5,8 @@
 //using namespace std; this is used in .h headers?
 
 namespace demo {
-
+// made a sturct (public class for data strorage)
+    ColorCode appleColor{255, 0, 0, "red"};
 // make a fruit class and some array structures
 // use std::library of array kind to make sure
 // use pointers to practice using a full object to compare apples and oranges.

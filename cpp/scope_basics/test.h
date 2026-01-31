@@ -11,8 +11,9 @@ namespace demo {
 
         std::string c;
         
+        int mixColor(const std::string& a, const std::string& b);
 
-    }
+    };
 
     class Fruit {
     public:
