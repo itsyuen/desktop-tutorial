@@ -18,19 +18,21 @@ namespace demo {
 
     class Fruit {
     public:
-        Fruit(double w, std::string c);
+        Fruit(std::string name, double w, std::string c);
 
         double getWeight() const;
         const std::string& getColor() const;
+        const std::string& getName() const;
 
-            void setWeight(double a);
+        void setWeight(double a);
         void setColor(std::string c);
-        std::string FruitName;
-
+        void setName(std::string name);
+    
     private:
         double weight;
         std::string color;
-    
+        std::string fruitname;
+
     };
 
     // free functions (outside of class)
