@@ -16,7 +16,8 @@ int main(){
     demo::Fruit banana("banana", 0.125, "yellow");
    
     r = demo::compareFruitByWeight(banana, orange);
-    std::cout << r << std::endl;
+    
+    demo::mixFruitByColor(banana, apple);
      
     return 0;
 }

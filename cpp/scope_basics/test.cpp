@@ -8,12 +8,22 @@
 namespace demo {
 // made a sturct (public class for data strorage)
     int ColorCode::mixColor(const std::string& a, const std::string& b){
+        std::cout << "Reciving 1st color: " << a << std::endl;
+        std::cout << "Reciving 2st color: " << b << std::endl;
+
+        // read ColorCode 
+        
+
         return 0;
     };
 
-    ColorCode red{255, 0, 0, "red"};
-    ColorCode green{0, 255, 0, "green"};
+    ColorCode red{246, 0, 0, "red"};
+    ColorCode orange{255, 140, 0, "orange"};
+    ColorCode yellow{255, 238, 0, "yellow"};
+    ColorCode green{77, 233, 0, "green"};
     ColorCode blue{0, 0, 255,"blue"};
+    ColorCode violet{72, 21, 170, "violet"};
+ 
 // make a fruit class and some array structures
 // use std::library of array kind to make sure
 // use pointers to practice using a full object to compare apples and oranges.
@@ -47,10 +57,16 @@ namespace demo {
     }
 
     int mixFruitByColor(const Fruit& a, const Fruit& b) {
+/*      
         std::cout << "first fruit is: " << std::endl;
         std::cout << a.getColor() << std::endl;
         std::cout << "second fruit is: " << std::endl;
         std::cout << b.getColor() << std::endl;
+ */        
+        // call ColorCode mixing function first by making a "mixer" ColorCode object
+        ColorCode mixer;
+        mixer.mixColor(a.getColor(), b.getColor());
+
         return 0;
     }
 }
