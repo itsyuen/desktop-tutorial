@@ -10,7 +10,7 @@ namespace demo {
         uint8_t g;
         uint8_t b;
 
-        std::string c;
+        std::string name;
         
         int mixColor(const std::string& a, const std::string& b);
 
