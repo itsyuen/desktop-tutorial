@@ -2,8 +2,11 @@
 
 #include <iostream>
 #include "test.h"
+#include "robo.h"
+#include <vector>
 
 int main(){
+/*
     // instances of two objects, practice constant objects and non-constant object to change its weights.
     demo::Fruit apple("apple", 0.2, "red");
    
@@ -18,6 +21,20 @@ int main(){
     r = demo::compareFruitByWeight(banana, orange);
     
     demo::mixFruitByColor(banana, apple);
+*/
+
+    // test Robo_ copy 
+    std::vector<Person> team{
+        Person("Alice"),
+        Person("Bianca"),
+        Person("Caitlyn")
+    };
+
+    RoboCopy(team);
+    cout << "Outside RoboCopy:\n";
+    for (auto p : team) {
+       cout << "    " << p.name << endl;
+    }
      
     return 0;
 }
