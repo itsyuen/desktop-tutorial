@@ -2,7 +2,7 @@
 #include "robo.h"
 #include <iostream>
 
-void RoboCopy(std::vector<Person> people){
+void RoboCopy(std::vector<Person>& people){
     for (auto p: people){
         p.name = "Robo_" + p.name; // change visible to caller?
     }

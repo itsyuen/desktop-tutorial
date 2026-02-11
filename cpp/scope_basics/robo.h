@@ -5,10 +5,10 @@
 class Person {
     public:
     std::string name;
-    Person(std::string name) : name(name);
+    Person(std::string name):name(name) {}
 };
 
-void RoboCopy(std::vector<Person> people);
+void RoboCopy(std::vector<Person>& people);
 
 void RoboCopy_AutoRef(std::vector<Person> people);
 
