@@ -8,7 +8,7 @@ class Person {
     Person(std::string name):name(name) {}
 };
 
-void RoboCopy(std::vector<Person>& people);
+void RoboCopy(std::vector<Person> people);
 
 void RoboCopy_AutoRef(std::vector<Person> people);
 
