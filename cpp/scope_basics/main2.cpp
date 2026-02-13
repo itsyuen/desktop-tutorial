@@ -1,6 +1,6 @@
 // mian program for starting all objects for runtime execution.
 
-#include "robo.h"
+#include "robo2.h"
 #include <iostream>
 
 int main(){
@@ -12,6 +12,28 @@ int main(){
         Person("Caitlyn")
     };
 
+    std::vector<Person*> teamPtr {&team[0], &team[1], &team[2]};
+
+    for (auto & p: team){
+        std::cout << "    " << p.getName() << std::endl;
+    }
+    
+    std::cout << "Please input a Lastname\n";
+    std::string lastname;
+    std::cin >> lastname;
+
+    for (auto &p : team){
+        p.setName(lastname);
+        std::cout << "New name is: " << p.getName() << std::endl; 
+    }
+
+    /*
+    std::cout << team[0].name << std::endl;
+    std::cout << teamPtr[2] ->name << std::endl;
+    std::cout << team.size() << std::endl;
+    */
+
+    /*
     RoboCopy(team);
     std::cout << "Outside RoboCopy:\n";
     for (auto p : team) {
@@ -24,7 +46,7 @@ int main(){
         std::cout << "    " << p.name << std::endl;
     }
     
-    std::vector<Person*> teamPtr {&team[0], &team[1], &team[2]};
+    
     std::cout << "before calling functions, the team is: " << std::endl;
     for (auto & p: teamPtr){
         std::cout << p->name << std::endl;
@@ -63,24 +85,7 @@ int main(){
     for (auto p: teamPtr){
         std::cout << "    " << p->name << std::endl;
     }
-    
-    /*
-    std::cout << team[0].name << std::endl;
-    std::cout << teamPtr[2] ->name << std::endl;
-    std::cout << team.size() << std::endl;
     */
-
-    for (auto & p: team){
-        std::cout << p.name << std::endl;
-        if (p.name.rfind("Robo_", 0) == 0){
-            p.name.erase(0, 5);
-        }
-        std::cout << "after erase: " << p.name << std::endl;
-    }
-    
-    //teamPtr[3]->changeName("Changed Name!");
-    std::cout << "After dummyFunction, new name is: " << teamPtr[3]->name << std::endl;
-
    
     return 0;
 

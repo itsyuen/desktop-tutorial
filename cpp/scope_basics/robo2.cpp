@@ -1,9 +1,16 @@
 // robo.cpp
-#include "robo.h"
+#include "robo2.h"
 #include <iostream>
 
-Person::Person(const std::string name): name(name){}
+Person::Person(const std::string& name): name(name){}
 
+const std::string Person::getName() { return name;}
+
+void Person::setName(const std::string& name){
+    this ->name = name;
+}
+
+/*
 void RoboCopy(std::vector<Person> people){
     for (auto p: people){
         p.name = "Robo_" + p.name; // change visible to caller?
@@ -47,3 +54,5 @@ void RoboCopy_AutoRef_PersonPtr(std::vector<Person*> people){
     }
 
 }
+
+*/
