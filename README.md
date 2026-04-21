@@ -18,7 +18,7 @@ Imported the .md file from repo, and used it to preview it directly here on Hack
 
 ## local NAS structure
 press here to find the current NAS structure of volume1 on my personal database, where I moved on from desktop to NAS consolidation: 
-[Here](https://github.com/itsyuen/desktop-tutorial/misc/nas-volume1-tree_2025-09-12.md)
+[Here](https://github.com/itsyuen/desktop-tutorial/blob/main/misc/nas-volume1-tree_2025-09-12.md)
 
 Note to self: learn to use more .md style
 
