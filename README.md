@@ -18,15 +18,15 @@ Imported the .md file from repo, and used it to preview it directly here on Hack
 
 ## local NAS structure
 press here to find the current NAS structure of volume1 on my personal database, where I moved on from desktop to NAS consolidation: 
+[Here](https://github.com/itsyuen/desktop-tutorial/blob/misc/nas-volume1-tree_2025-09-12.md)
 
 Note to self: learn to use more .md style
 
 this tree will updated soon!!!!
 
-test on how figure appear here on local GitHub cloned direcotry on c:\Users\itsyu\GitHub\deaktop-tutorail
+test on how figure appear here on local GitHub cloned direcotry on c:\Users\itsyu\GitHub\deaktop-tutorial
 
-
-
+---
 
 [![hackmd-github-sync-badge](https://hackmd.io/YTA1QD7HT3agcgWDzs6RMw/badge)](https://hackmd.io/YTA1QD7HT3agcgWDzs6RMw)
 
