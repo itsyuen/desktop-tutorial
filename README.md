@@ -32,13 +32,7 @@ test on how figure appear here on local GitHub cloned direcotry on c:\Users\itsy
 
 (this badge will show normally on hackmd.io)
 
-# Heading
-## Heading
-- bullet
-1. list
-```cpp
-code
-```
+
 
 Then add `:::` only when platform supports it.
 
