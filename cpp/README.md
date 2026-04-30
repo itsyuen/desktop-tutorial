@@ -6,5 +6,4 @@ This README describes the C++ directory. It was originally a personal C++ practi
 
 This directory is intended to become a working area for C++ code snippets that will later be incorporated into ROS2, STM32, Arduino, and other hardware-related intermediate files.
 
-A separate `python` directory will be created in this `desktop-tutorial` repo for Python-related work.
-
+A separate `python` directory has been created in this `desktop-tutorial` repo for Python-related work.
