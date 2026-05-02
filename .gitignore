@@ -1,0 +1,20 @@
+# editor metadata
+.vscode/
+.codex
+
+# build outputs
+build/
+bin/
+*.o
+*.obj
+*.exe
+a.out
+
+# Linux / Mac junk
+.DS_Store
+Thumbs.db
+
+# ROS / colcon
+log/
+install/
+build/
